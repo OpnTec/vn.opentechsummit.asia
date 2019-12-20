@@ -201,3 +201,7 @@
   margin-left: auto;
   margin-right: auto;
 }
+.speaker .image-holder img{
+  height: 300px;
+  object-fit: cover;
+}
