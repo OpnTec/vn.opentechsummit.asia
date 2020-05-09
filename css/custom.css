@@ -108,9 +108,21 @@
   color: #fff;
   text-decoration: none;
 }
-.sub-heading-font
+
+@media only screen and (min-width:768px)
 {
-  font-size: 35px;
+  .sub-heading-font
+  {
+    font-size: 35px;
+  }
+}
+@media only screen and (max-width:768px)
+{
+  .sub-heading-font
+  {
+    font-size: 35px;
+    line-height: 3.5rem;
+  }
 }
 @media screen and (min-width: 350px) and (max-width: 440px)
 {
